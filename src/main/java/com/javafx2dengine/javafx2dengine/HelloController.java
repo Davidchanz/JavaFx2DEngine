@@ -16,7 +16,7 @@ public class HelloController implements Initializable {
     public static int HEIGHT = 600;
     @FXML
     private ImageView canvas;
-    private WritableImage graphics;
+    public static WritableImage graphics;
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
         System.out.println("Ini");
